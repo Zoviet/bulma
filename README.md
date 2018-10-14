@@ -6,7 +6,7 @@ is-ancestor>is-parent>is-child>is-child>is-ancestor>is-parent>is-child>is-child>
 
 There is a radical and harsh poor JavaScript solution for this problem based on the .tile's refactoring in the simple block elements with dinamical height sizes. It's supported by IE9+ and work well. 
 
-# Start
+# Start "Magic Tiles" without any magic with only depressive JS code
 
 Clone a repository,include iefix.js in you project and enjoy :) 
 Browser checking included in script, there is no extra checking needed.
