@@ -10,3 +10,15 @@ There is a radical and harsh poor JavaScript solution for this problem based on 
 
 Clone a repository,include iefix.js in you project and enjoy :) 
 Browser checking included in script, there is no extra checking needed.
+
+Don't use with iefix anyone CSS hacks like this: 
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* 1 */
+}
+
+It's needed for browser checking.
+
+
