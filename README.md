@@ -4,7 +4,7 @@ Bulma is a modern CSS3 Framework uses Flexbox. Unfortunately, some necrophiles h
 
 is-ancestor>is-parent>is-child>is-child>is-ancestor>is-parent>is-child>is-child>
 
-There is a radical and harsh poor JavaScript solution for this problem based on the .tile's refactoring in the simple block elements with dinamical height sizes. It's supported by IE9+ and work well. 
+There is a radical and harsh poor JavaScript solution for this problem based on the .tile's refactoring to the simple block elements with dinamical height sizes. It's supported by IE9+ and work well. 
 
 # Start "Magic Tiles" without any magic with only depressive JS code
 
