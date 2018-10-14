@@ -1,4 +1,4 @@
-# IE9+ support for Bulma Framework's Grid system
+# Sadly IE9+ support for Bulma Framework's Grid system
 
 Bulma is a modern CSS3 Framework uses Flexbox. Unfortunately, some necrophiles has been used IE9-10+, that Bulma "is only partially supported" (https://github.com/jgthms/bulma#browser-support). For my kind, main problem is not a modal dialog or something similar like is discussed - https://github.com/jgthms/bulma/issues/252. It's a tiles and trees of tiles in grid system. Simple solutions like https://github.com/philipwalton/flexbugs#flexbug-3 don't works, especially then tiles tree are deep like: 
 
