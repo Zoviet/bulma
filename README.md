@@ -11,6 +11,8 @@ There is a radical and harsh poor JavaScript solution for this problem based on 
 Clone a repository,include iefix.js in you project and enjoy :) 
 Browser checking included in script, there is no extra checking needed.
 
+Please use a strict tile tree (https://bulma.io/documentation/layout/tiles/#how-it-works-nesting) ancestor>parent>child.
+
 Don't use with iefix anyone CSS hacks like this: 
 
 body {
@@ -19,6 +21,6 @@ body {
   height: 100vh; /* 1 */
 }
 
-It's needed for browser checking.
+It's needed for browser checking. 
 
 
