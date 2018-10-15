@@ -79,7 +79,7 @@ function fixcolumns($vertical) {
 function fixtiles() {
 	let $tiles = getElement(document,'.is-ancestor');
 	$tiles.forEach(function ($ancestor) {
-		$vertical=getElement($ancestor,'.is-vertical');
+		var $vertical=getElement($ancestor,'.is-vertical');
 		if ($vertical.length > 0) {
 			fixcolumns($vertical);
 		} else {
