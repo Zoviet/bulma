@@ -14,7 +14,7 @@ var config = {
 gulp.task('js', function () {
     return gulp.src(config.srcDir+'/'+config.jsPattern)   
     .pipe(debug())   
-    .pipe(babel({presets: ["env"]}))
+    .pipe(babel({presets: ["env"]}))    
     .pipe(uglify({ie8:true,warnings:true}))     
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest(config.devDir));
